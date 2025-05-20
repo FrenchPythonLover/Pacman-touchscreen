@@ -5,7 +5,7 @@ import sys
 pygame.init()
 
 # Window configuration
-WIDTH, HEIGHT = 800, 800
+WIDTH, HEIGHT = 1024, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pac-Man Tactile")
 
