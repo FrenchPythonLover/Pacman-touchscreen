@@ -6,5 +6,9 @@ Enjoy !<br>
 # Requirements
 - Python 3.11
 - Pygame (pip install pygame)
+- Math
+- Random
+- Sys
+- Time
 <hr>
 Made with ❤️ by Tilto66
