@@ -46,7 +46,7 @@ maze = [
      ] 
 
 # Pacman's initial position
-pacman_pos = [9, 3]
+pacman_pos = [14, 5]
 
 dots = []
 for y in range(len(maze)):
