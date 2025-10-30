@@ -132,6 +132,7 @@ class PacMan:
         return 0 <= x < GRID_WIDTH and 0 <= y < len(maze) and maze[y][x] != 1
         
     def update(self, maze):
+        print(self.y, self.x)
         # Essayer de changer de direction
         dirs = {'up': (0, -1), 'down': (0, 1), 'left': (-1, 0), 'right': (1, 0)}
         dx, dy = dirs[self.next_direction]
@@ -146,11 +147,11 @@ class PacMan:
             self.x, self.y = nx, ny
         
         # Téléportation dans le tunnel (ligne y=9)
-        if self.y == 9:
-            if self.x < 0:
-                self.x = GRID_WIDTH - 1
-            elif self.x >= GRID_WIDTH:
+        if self.y == 10:
+            if self.x == 18:
                 self.x = 0
+            elif self.x == 0:
+                self.x = 18
             
         self.mouth = (self.mouth + self.mouth_speed) % 360
         

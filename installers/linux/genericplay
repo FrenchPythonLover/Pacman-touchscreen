@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Répertoire où se trouve le script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Répertoire courant
+CWD="$(pwd)"
+
+# Comparaison
+if [[ "$CWD" == "$SCRIPT_DIR" ]]; then
+    source venv/bin/activate
+    python3 ../../main.py
+else
+    cd installers/linux/
+    source venv/bin/activate
+    python3 ../../main.py
+fi
