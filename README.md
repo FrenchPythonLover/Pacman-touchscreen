@@ -15,6 +15,8 @@ Execute the `installers/linux/genericinstall` script, then simply run `installe
 ## Windows
 Double click on the `installers\windows.bat`, and run `.\play.bat` (or run in command prompt `py .\main.py`)
 
+## Note to devs
+This program is commented in french, but a simple translator like [**Google Translate**](https://translate.google.fr/?hl=fr&sl=fr&tl=en&op=translate) should help !
 # Credits
 Original Code: [**Tilto66**](https://github.com/Tilto66/) and [**_Mistral AI_**](https://mistral.ai/)<br>
 Bug Fixes, README, preview images: [**FrenchPythonLover**](https://github.com/FrenchPythonLover)
