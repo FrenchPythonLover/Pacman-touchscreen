@@ -5,10 +5,9 @@ any changes are welcome and this program is documented in English.<br>
 Enjoy !<br>
 # Requirements
 - Python 3.11
-- Pygame (pip install pygame)
-- Math
-- Random
-- Sys
-- Time
-<hr>
+- Pygame (pip install pygame)  
+- Math  
+- Os  
+- Sys  
+<hr>  
 Made with ❤️ by Tilto66
