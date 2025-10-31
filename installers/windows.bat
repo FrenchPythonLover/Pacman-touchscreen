@@ -20,6 +20,4 @@ echo INSTALLING....
 pip install pygame
 pip install os 
 pip install math
-                                                                                                                                                
-                                                                                                                                                                     
-                                                                                                                                                                     
+pip install sys                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
