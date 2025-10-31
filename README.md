@@ -2,7 +2,7 @@
 # Touchscreen Pacman
 Welcome to the repository about a **touchscreen compatible *pacman* game written in python** !<br>
 ## Requirements
-The game's requires having python librairy **pygame**,**OS**,**sys**,**math** and , of course, python version **3** installed ! <br>
+The game's requires having python librairy **pygame**,**OS** ,**sys** ,**math** and , of course, python version **3** installed ! <br>
 By the courtesy of _FrenchPythonLover_, both installation scripts for **Windows** and **Linux** have been added !
 ## How do i play ?
 First of all, go on download the `Pacman-TouchScreen.zip` file from the [latest release](https://github.com/Tilto66/Pacman-touchscreen/releases/latest), and extreact it anywhere in your computer, then follow for your OS.<br>
