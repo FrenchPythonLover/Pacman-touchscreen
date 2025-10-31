@@ -2,6 +2,10 @@ import pygame
 import sys
 import os
 import math
+#musique 
+pygame.mixer.init()
+pygame.mixer.music.load("pacman_beginning.wav")
+pygame.mixer.music.play(1) 
 
 # Activer le support tactile
 os.environ['SDL_MOUSE_TOUCH_EVENTS'] = '1'
