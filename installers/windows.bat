@@ -18,6 +18,6 @@ echo Installer made by FrenchPythonLover
 
 echo INSTALLING....
 pip install pygame
-pip install os 
-pip install math
-pip install sys                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+echo INSTALLED !
+echo "PRESS ENTER TO QUIT"
+pause
