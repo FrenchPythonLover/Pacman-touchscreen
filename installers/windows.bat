@@ -18,6 +18,8 @@ echo Installer made by FrenchPythonLover
 
 echo INSTALLING....
 pip install pygame
+pip install os 
+pip install math
                                                                                                                                                 
                                                                                                                                                                      
                                                                                                                                                                      
